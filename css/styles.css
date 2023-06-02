@@ -430,6 +430,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-soc-link:hover, 
 .our-team-soc-link:focus {
@@ -744,7 +745,7 @@ padding: 24px;
   border-radius: 50%;
   /* display: block; */
   background-color: #e7e9fc;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border: 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .is-hidden {
   visibility: hidden;
